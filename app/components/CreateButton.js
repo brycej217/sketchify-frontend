@@ -6,7 +6,7 @@ export default function CreateButton() {
 
 const login = async () => {
   try {
-    let response = await fetch('http://localhost:3000/api/login')
+    let response = await fetch('https://sketchify-backend-673009b3e188.herokuapp.com/api/login')
     let url = await response.text()
     window.location.href = url
   } catch (error) {
