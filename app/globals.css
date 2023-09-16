@@ -1,0 +1,39 @@
+.center-vertically {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.middle-align {
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-container {
+  width: 80%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.gallery-container {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.gallery img {
+  max-width: 40vh;
+  height: auto;
+  margin-right: 0.5vw;
+}
+
+.gallery {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.reduce-space {
+  margin-top: 0px;
+}
